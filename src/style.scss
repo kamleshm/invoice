@@ -1,0 +1,287 @@
+.billing-heading {
+  width: 100%;
+  margin: 0 auto;
+  height: 80px;
+  background-color: rgb(219, 131, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billing-heading p {
+  color:rgb(241, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.search-item {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-item-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #0e990e;
+  font-size: 14px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  line-height: 15px;
+  max-width: 400px;
+  min-width: 100px;
+  background-color: #0e990e;
+}
+
+.search-item-button:hover {
+  background-color: #5db15d;
+  cursor: pointer;
+}
+
+.invoice {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.invoice p {
+  font-size: 20px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.customer-detail {
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    &:focus,
+    &:visited {
+      border-color: #0099ff;
+      box-shadow: 0 0 2px #0099ff;
+    }
+  }
+}
+
+#invoice-item-list {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+
+#invoice-item-list td, #invoice-item-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#invoice-item-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#invoice-item-list tr:hover {background-color: #ddd;}
+
+#invoice-item-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.search-page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(219, 131, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-header p {
+  color:rgb(241, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#results-list {
+  margin-top: 30px;
+}
+
+#results-item-list {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  max-width: 1200px;
+  table-layout: auto;
+  width: 100%; 
+}   
+
+#results-item-list td, #results-item-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#results-item-list tr:nth-child(even){background-color: #f2f2f2;}
+
+#results-item-list tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#results-item-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.search-string {
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    &:focus,
+    &:visited {
+      border-color: #0099ff;
+      box-shadow: 0 0 2px #0099ff;
+    }
+  }
+}
+
+.search-string p{
+  font-size: 20px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+
+
+.submit-button{
+  margin-top: 80px;
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 25px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #27a6cc;
+  border: 1px solid #27a6cc;
+}
+
+.submit-button:hover {
+  background-color: #6cc5e0;
+  cursor: pointer;
+}
+
+.bill-drop-down {
+  padding: 4px;
+  font-size: 15px;
+}
+
+.bill-input-field {
+  padding: 4px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+#trash-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bill-delete-box:hover {
+  cursor: pointer;
+}
+
+#search-box {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#search-button {
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 25px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #27a6cc;
+  border: 1px solid #27a6cc;
+  margin-left: 5px;
+  &:hover{
+    background-color: #6cc5e0;
+    cursor: pointer;
+  }
+}
+
+#bill-search-item {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background-color: #182225;
+  border: 1px solid #27a6cc;
+  color: white;
+  text-decoration: none;
+}
+
+#searchpage-invoice-button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-family: axiforma-regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background-color: #182225;
+  border: 1px solid #27a6cc;
+  color: white;
+  text-decoration: none; 
+}
